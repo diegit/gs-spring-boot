@@ -10,5 +10,9 @@ public class HelloController {
 	public String index() {
 		return "Primeiro projeto de Diego Moraes. Não tem problema";
 	}
+	@RequestMapping("/teste")
+	public String teste() {
+		return "Acessando o /teste";
+	}
 
 }
